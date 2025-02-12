@@ -37,8 +37,8 @@
                 }
             }
             if (entropy < 0.15) {
-                document.querySelector('.no-button')?.textContent = "Wait... what?";
-                document.querySelector('.yes-button')?.textContent = "Huh??";
+                document.querySelector('.no-button')?.textContent = "ehh tunggu duluu";
+                document.querySelector('.yes-button')?.textContent = "hah??";
             }
             if (entropy < 0.1) {
                 let base = document.body;
@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Beneran nih cawa?",
+    "Beneran? Serius?",
+    "Yang bener cawaaa",
+    "Ayolahhh cawaaaaa",
+    "Yu pikirin baik-baik dulu yuuu",
+    "Kalau kamu jawab engga, abu bakalan sedih",
+    "Sedihhh bangett",
+    "Beneran sedih bangett",
+    "Yaudah kalau gitu, Abu engga akan nanya lagi...",
+    "Et tapi boong, say yes please! <3"
 ];
 
 let messageIndex = 0;
